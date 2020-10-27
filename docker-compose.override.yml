@@ -1,0 +1,6 @@
+# Specifying user specific connection to a shared folder
+services:
+    rstudio:
+      # Connecting to a local folder on box
+      volumes:
+          - ~/Box/RES Data/Shapefiles:/Shapefiles
