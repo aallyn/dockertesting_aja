@@ -9,5 +9,4 @@ services:
             - "8787:8787"
         # Mapping the connections between things on our local system to the docker container
         volumes:
-        - ./scratch/aja/data:/data
     
