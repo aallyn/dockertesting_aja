@@ -3,4 +3,4 @@ services:
     rstudio:
       # Connecting to a local folder on box
       volumes:
-          - ~/Box/sdm_workflow/data:/data
+          - ~/Box/sdm_workflow/data:/home/rstudio/data
