@@ -4,6 +4,9 @@ services:
         build: .
         # Tag the built Dockerfile this name
         image: aallyn/dockertesting_aja
+        # Environmental File for passwords etc.
+        env_file:
+            - ./secret.env
         # Ports, not entirely sure what this does?
         ports: 
             - "8787:8787"
